@@ -1,0 +1,12 @@
+GET http://localhost:5000/api/v1/passengers HTTP/1.1
+Content-Type: application/json
+
+###
+PUT http://localhost:5000/api/v1/cars HTTP/1.1
+Content-Type: application/json
+
+{
+    "carOwner": "Usman",
+    "carNumber": "11111111111"
+ 
+}
